@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Roll A Dice : Gene Arthur</string>
+    <string name="title">Dice Roller</string>
+    <string name="instruction">Tap the button to roll the dice</string>
+    <string name="btn_label">Roll</string>
+    <string name="cont_desc">Dice Face</string>
+</resources>
