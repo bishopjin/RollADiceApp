@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             /* animation */
             diceFace.setVisibility(View.INVISIBLE);
             diceFace2.setVisibility(View.VISIBLE);
+            btn_roll_dice.setEnabled(false);
 
             diceFace2.setBackgroundResource(R.drawable.roll_dice_animation);
             dice_anim = (AnimationDrawable) diceFace2.getBackground();
@@ -55,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     dice_anim.stop();
                     diceFace2.setVisibility(View.INVISIBLE);
                     diceFace.setVisibility(View.VISIBLE);
+                    btn_roll_dice.setEnabled(true);
 
                     switch (roll_dice_result) {
                         case 1 :
